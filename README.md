@@ -1,5 +1,17 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+Faced [Error](https://github.com/vercel/next.js/issues/35623)
+for this project command used to create the project
+`create-next-app <project_name> -ts --use-npm`
+
+[Reference](https://stackoverflow.com/questions/51048173/switch-to-npm-for-create-react-app)
+
+## Strict Type Checking
+By default `"strict": true`
+
+To disable:
+- in `tsconfig.json` change `"strict": true` to `"strict": false`
+
 ## Getting Started
 
 First, run the development server:
